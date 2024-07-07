@@ -1,0 +1,48 @@
+.container{
+   
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+
+ width: 80%;
+ margin: 0 auto;
+ position: relative;
+ margin-bottom: 70px;
+
+    
+}
+.left{
+    width: 30%;
+}
+.right{
+    padding: 10px 30px;
+    background-color:#F94F4F ;
+    color: #FFF;
+    transition: all 0.2s ease-in;
+
+    cursor: pointer;
+}
+.right:hover{
+    background-color:rgb(255, 103, 103) ;
+}
+.image{
+    position: absolute;
+    left: -20%;
+}
+@media (max-width:375px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+   
+  }    
+  .left{
+    width: 300px;
+    font-size: 12px;
+  }
+  .image{
+    display: none;
+  }
+}

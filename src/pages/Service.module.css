@@ -1,0 +1,92 @@
+/* #info-tab{
+    background-color: #EBF0F0;
+    width: 95%;
+    height: 540px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    gap: 30px;
+    position: relative;
+}
+.info{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.info .tab{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.info .tab h1{
+    font-size: 48px;
+}
+.bot{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.bot button{
+    background-color: #FFF;
+    width: 185px;
+    padding: 8px 0;
+    font-size: 14px;
+    border:none;
+    border-radius:10px
+}
+.bot button i{
+    margin-right: 10px;
+}
+.email{
+    color: orange;
+}
+.green{
+    color: rgb(1, 165, 1);
+}
+#links2{
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.socials2{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 25px;
+}
+.socials2 i{
+    background-color: #FFF;
+    border-radius:50%;
+    padding: 10px;
+    color: gray;
+} */
+.form{
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+.inputs{
+    width: 605px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+    margin-top: 40px;
+}
+.inputs input{
+    width: 300px;
+    padding: 14px;
+    border-radius:10px;
+    border:none
+}
+.inputs textarea{
+    border:none;
+    margin-left: 12px;
+}

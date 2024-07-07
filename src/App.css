@@ -1,0 +1,19 @@
+:root{
+  --mainRed:rgb(249,79,79);
+  --mainRedHover:rgb(255, 103, 103);
+  --bgBlack:rgb(25,25,33);
+  --txtBlack:rgb(0,0,0);
+  --white:#FFF; 
+}
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
